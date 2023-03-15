@@ -47,8 +47,10 @@
   }
 
   .hero__container {
+    position: relative;
     text-align: center;
     padding-left: 10%;
+    
   }
 
   .Main__Schedule {
@@ -116,10 +118,9 @@
         width:30px;
         height: 30px;
         cursor:pointer;
-      /*   border:solid 1px white; */
         transition:0.5s;
         overflow:hidden;
-        transform: rotate(180deg);
+        transform: rotate(90deg);
     }
     
     
@@ -157,4 +158,10 @@
         
         }
     
-        
+        .error{
+          background: #F2DEDE;
+          color: #A94442;
+          padding: 10px;
+          width: 95%;
+          border-radius: 5px;
+        }
