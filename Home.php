@@ -1,8 +1,5 @@
 <?php 
-session_start();
-
-if (isset($_SESSION['user_id'])) {
-
+session_start(); 
  ?>
 <!DOCTYPE html>
 <html>
@@ -17,8 +14,4 @@ if (isset($_SESSION['user_id'])) {
 </html>
 
 <?php 
-}else{
-     header("Location: Index.PHP");
-     exit();
-}
- ?>
+

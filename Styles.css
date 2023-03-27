@@ -120,7 +120,7 @@
         cursor:pointer;
         transition:0.5s;
         overflow:hidden;
-        transform: rotate(90deg);
+        transform: rotate(180deg);
     }
     
     

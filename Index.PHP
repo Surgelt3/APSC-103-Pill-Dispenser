@@ -14,7 +14,7 @@
        		<p class="error"><?php echo $_GET['error']; ?></p>
        	<?php } ?>
        	<label>User ID</label>
-       	<input type="text" name="uname" placeholder="User ID"><br>
+       	<input type="text" name="user_id" placeholder="User ID"><br>
       
        	<button type="submit">Login</button>
        </form>
